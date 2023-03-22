@@ -19,7 +19,7 @@
                 <li><a href="">NOUS JOINDRE</a></li>
             </ul>
         </nav>
-        <a class="login" href="all_members.html"><button>Boutique</button></a>
+        <a class="login" href="all_members.html"><button id="bouton_boutique">Boutique</button></a>
     </header>
     <section id="section_apropos">
         <h1 id="titreAPropos">À PROPOS</h1>
@@ -28,8 +28,8 @@
             <div>
                 <h1>Qui sommes-nous?</h1>
                 <p>L'équipe des Spiritueux est une équipe d'ultimate frisbee
-                    récréative composée d'une quinzaine de joueurs et joueuses de 18 à 22 ans. Elle évolue 
-                    au sein de la ligue récréative d'été de l'UGM, Ultimate Grand Montréal. L'équipe participera 
+                    récréative composée d'une quinzaine de joueurs et joueuses de 18 à 22 ans. Elle évolue
+                    au sein de la ligue récréative d'été de l'UGM, Ultimate Grand Montréal. L'équipe participera
                     à la saison d'été de 2023 au collège Letendre, à Laval.
                 </p>
             </div>
@@ -37,12 +37,15 @@
         <div class="boiteInfo">
             <div>
                 <h1>UGM</h1>
-                <p>L'Association d'ultimate de Montréal (AUM) a été fondée en 1993 par des joueurs et joueuses 
-                    passionné·e·s. À l'époque, l'association ne comportait que quelques centaines de joueur·euse·s. 
-                    Toutes les parties se jouaient durant l'été, principalement sur les terrains de l’Hôpital Douglas à Verdun.
-                    En 2017, l'association a changé son nom et son image pour devenir Ultimate Grand Montréal (UGM), afin de 
-                    mieux représenter le territoire et les services offerts. À ce jour, plus de 4 000 joueur·euse·s pratiquent 
-                    le sport dans le Grand Montréal. 
+                <p>L'Association d'ultimate de Montréal (AUM) a été fondée en 1993 par des joueurs et joueuses
+                    passionné·e·s. À l'époque, l'association ne comportait que quelques centaines de joueur·euse·s.
+                    Toutes les parties se jouaient durant l'été, principalement sur les terrains de l’Hôpital Douglas à
+                    Verdun.
+                    En 2017, l'association a changé son nom et son image pour devenir Ultimate Grand Montréal (UGM),
+                    afin de
+                    mieux représenter le territoire et les services offerts. À ce jour, plus de 4 000 joueur·euse·s
+                    pratiquent
+                    le sport dans le Grand Montréal.
                 </p>
             </div>
             <img src="static/images/image2.jpg">
@@ -59,10 +62,43 @@
     <script src="{% static 'script.js' %}"></script>
 
     <section id="section_partenaires">
-        <div class="sponsor_box1">
-            <img src="static/logoSpiritueux.jpg">
-            <h1>Le Groupe Cléroux</h1>
-        </div>
+        <h1 id="titre_partenaires">Nos Partenaires</h1>
+        <a href="https://www.serrescleroux.com/" class="sponsor_box1">
+            <button>
+                <img src="static/logoSpiritueux.jpg">
+                <h1>Le Groupe Cléroux</h1>
+            </button>
+        </a>
+        <a href="https://www.mclarenmontreal.com/" class="sponsor_box1" id="sponsor_box2">
+            <button>
+                <img src="static/logoSpiritueux.jpg">
+                <h1>McLaren Montréal</h1>
+            </button>
+        </a>
+        <a href="https://www.camfil.com/en/about-us/about-camfil/business-areas/power-systems" class="sponsor_box1">
+            <button>
+                <img src="static/logoSpiritueux.jpg">
+                <h1>Camfil Power Systems</h1>
+            </button>
+        </a>
+        <a href="https://www.randolph.ca/pub-ludique/centropolis/" class="sponsor_box1" id="sponsor_box2">
+            <button>
+                <img src="static/logoSpiritueux.jpg">
+                <h1>Randolph Pub Ludique</h1>
+            </button>
+        </a>
+        <a href="https://effigiedesign.com/" class="sponsor_box1">
+            <button>
+                <img src="static/logoSpiritueux.jpg">
+                <h1>Effigie Design</h1>
+            </button>
+        </a>
+    </section>
+    <section id="section_joindre">
+        <h1 id="titre_joindre">Nous joindre</h1>
+        <ul id="info_joindre">
+            <li><img><p></p></li>
+        </ul>
     </section>
 
 </body>
