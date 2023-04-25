@@ -19,6 +19,9 @@ const infosAlignement = [
     { name: 'Tai Yang-Larochelle', numero:1 , img: 'static/images/pdp_tai.jpg', role: 'Joueur/euse' },
 ];
 
+/**
+ *  Crée les éléments html correspondants à l'alignement
+ */
 const infosContainer = document.getElementById('alignement');
 for (let i = 0; i < infosAlignement.length; i++) {
     const info = infosAlignement[i];
