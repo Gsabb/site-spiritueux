@@ -1,19 +1,20 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 from django.template import loader
-from .models import Member
+from .models import *
 
 def paiement(request):
-    template = loader.get_template('paiement.html')
-    return HttpResponse(template.render())
+    context = {}
+    return render(request, 'paiement.html', context)
 
 def panier(request):
-    template = loader.get_template('panier.html')
-    return HttpResponse(template.render())
+    context = {}
+    return render(request, 'panier.html', context)
 
 def info(request):
-    template = loader.get_template('info.html')
-    return HttpResponse(template.render())
+    context = {}
+    return render(request, 'info.html', context)
 
 def boutique(request):
-    template = loader.get_template('boutique.html')
-    return HttpResponse(template.render())
+    products = Produit.objects.all()
+    context = {'products':products}
+    return render(request, 'boutique.html', context)
