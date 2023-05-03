@@ -12,7 +12,7 @@ const infosAlignement = [
     { name: 'Francis Ronco', numero:911 , img: 'static/images/pdp_frank.jpg', role: 'Joueur/euse' },
     { name: 'Fred Gaudet', numero:88 , img: 'static/images/pdp_fred.jpg', role: 'Joueur/euse' },
     { name: 'Julien Novak-Bélanger', numero:12 , img: 'static/images/pdp_julien.jpg', role: 'Joueur/euse' },
-    { name: 'Mégane Favreau', numero:5 , img: 'static/images/blankAvatar.png', role: 'Joueur/euse' },
+    { name: 'Mégane Favreau', numero:5 , img: 'static/images/pdp_megane.png', role: 'Joueur/euse' },
     { name: 'Mélodie Marceau', numero:13 , img: 'static/images/pdp_melo.jpg', role: 'Joueur/euse' },
     { name: 'Rosalie Dugas', numero:10 , img: 'static/images/pdp_rosa.jpg', role: 'Joueur/euse' },
     { name: 'Thomas Savage-Duguay', numero:66 , img: 'static/images/pdp_thomas.jpg', role: 'Joueur/euse' },

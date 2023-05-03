@@ -18,9 +18,9 @@
 
             <button data-product={{product.id}} data-action="add"
                 class="btn btn-outline-secondary add-btn update-cart">Ajouter au panier</button>
-            <a class="btn btn-outline-success" href="#">Détails</a>
+            <!--<a class="btn btn-outline-success" href="#">Détails</a>-->
             <h4 style="display: inline-block; float: right"><strong>
-                    {{product.price|floatformat:2}} </strong></h4>
+                    {{product.price|floatformat:2}}$</strong></h4>
         </div>
     </div>
     {% endfor %}

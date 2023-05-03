@@ -5,7 +5,7 @@ import datetime
 from django.template import loader
 from .models import *
 from .utils import cartData, cookieCart, guestOrder
-
+from django.contrib.auth.forms import UserCreationForm
 
 def paiement(request):
     data = cartData(request)
@@ -30,7 +30,6 @@ def panier(request):
 def info(request):
     context = {}
     return render(request, 'info.html', context)
-
 
 def boutique(request):
     data = cartData(request)
