@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-fxm_hxzxm6^!&5u#7!)@^au)dgahv$2*1eda$okez7bhnji0au
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['site-web-les-spiritueux.onrender.com']
+ALLOWED_HOSTS = ['site-web-les-spiritueux.onrender.com', '127.0.0.1']
 
 
 # Application definition
@@ -127,7 +127,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 MEDIA_URL = 'images/'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'staticfiles/images')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
